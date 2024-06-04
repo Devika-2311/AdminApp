@@ -1,0 +1,19 @@
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>DeletePage</title>
+</head>
+
+<body bgcolor="lavender">
+	<h1> Delete Account</h1>
+
+
+	<form action="/admin/delete" method="post">
+		<input type="hidden" name="_method" value="delete" />
+		Username: <input type="text" name="username" required>
+		<button type="submit">Delete</button>
+	</form>
+	</form>
+</body>
+
+</html>
