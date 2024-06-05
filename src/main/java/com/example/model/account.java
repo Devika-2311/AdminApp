@@ -80,7 +80,7 @@ public class account {
 		return "account [name=" + name + ", username=" + username + ", password=" + password + ", age=" + age + ", ssn="
 				+ ssn + ", address=" + address + ", email=" + email + ", phone=" + phone + ", balance=" + balance + "]";
 	}
-	public account(String name, String username,tring password, int age, String ssn, String address,
+	public account(String name, String username,String password, int age, String ssn, String address,
 			String email, String phone, float balance) {
 		super();
 		this.name = name;
